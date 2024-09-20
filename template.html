@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{meet_name}</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{meet_name}</h1>
+        <h2>{meet_date}</h2>
+        <nav>
+            <ul>
+                <li><a href="#team-results">Team Results</a></li>
+                <li><a href="#athlete-results">Athlete Results</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="team-results">
+            <h2>Team Results</h2>
+            <p>{team_summary}</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Place</th>
+                        <th>Team</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Team results will be inserted here -->
+                </tbody>
+            </table>
+            <p><a href="{team_results_link}">Full team results</a></p>
+        </section>
+
+        <section id="athlete-results">
+            <h2>Athlete Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Place</th>
+                        <th>Name</th>
+                        <th>Grade</th>
+                        <th>Time</th>
+                        <th>Team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Athlete results will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <!-- Photo gallery will be inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; {current_year} {school_name} Cross Country. All rights reserved.</p>
+    </footer>
+</body>
+</html>
